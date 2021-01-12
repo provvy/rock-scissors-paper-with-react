@@ -1,0 +1,139 @@
+.header {
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  color: #1F1E30;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+  font-size: 35px;
+  word-spacing: 12px;
+}
+
+.container {
+  background-color: #1F1E30;
+  height: 100vh;
+  color: white;
+}
+
+.score-div {
+  border: 2px white solid;
+  border-radius: 1px;
+  margin: 50px auto 0px;
+  width: 350px;
+  position: relative;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-label, .comp-label {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #C42727;
+  width: 70px;
+  height: 30px;
+  font-weight: 500;
+}
+
+.user-label {
+  position: absolute;
+  left: -35px;
+}
+
+.comp-label {
+  position: absolute;
+  right: -35px;
+}
+
+.score {
+  font-size: 70px;
+}
+
+.event-div {
+  text-align: center;
+  margin: 40px auto 0;
+  font-weight: 600;
+  font-size: 45px;
+}
+
+.image {
+  width: 150px;
+  height: auto;
+  cursor: pointer;
+}
+
+.image:active {
+  border-radius: 100px;
+  box-shadow: 0px 0px 20px 0.1px #b2b2b2;
+}
+
+.button {
+  border: none;
+  outline: none;
+  background-color: #1F1E30;
+  margin: 0 35px;
+}
+
+.image:hover {
+  opacity: 0.85;
+}
+
+.button-div {
+  display: flex;
+  justify-content: center;
+  margin: 60px auto 0px;
+}
+
+.footer {
+  text-align: center;
+  margin: 30px auto 0;
+  font-weight: 500;
+  font-size: 20px;
+  background-color: #1F1E30;
+}
+
+.footer p {
+  font-weight: 200;
+  font-size: 9px;
+  background-color: #1F1E30;
+  position: absolute;
+  right: 45px;
+  bottom: 20px;
+}
+
+.win-div, .lost-div {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+  color: white;
+  flex-direction: column;
+}
+
+.win-div h1, .lost-div h1 {
+  margin: 0;
+}
+
+.win-div {
+  background-color: #0BA961;
+}
+
+.lost-div {
+  background-color: #D22626;
+}
+
+.reload-button {
+  border: 1px solid black;
+  outline: none;
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  padding: 10px 20px;
+  margin-top: 35px;
+}
